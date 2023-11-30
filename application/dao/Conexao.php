@@ -13,7 +13,7 @@ $this->senha, $this->dbName);
     }
     public function getConexao(){
     if($this->conn->connect_error){
-die("A conexão falhou. ". $this->conn->connect_error);
+    die("A conexão falhou. ". $this->conn->connect_error);
     }
         return $this->conn;
     }
@@ -21,7 +21,4 @@ die("A conexão falhou. ". $this->conn->connect_error);
         $this->conn->close();
     }
 }
-
-
-
 ?>
