@@ -29,7 +29,7 @@ include $base .'\..\layout\menu.php';
         margin: 20px 0;
         padding: 15px;
         border-radius: 4px;
-        text-align: center; /* Centraliza o texto */
+        text-align: center; 
     }
 
     .alert-success {
@@ -39,7 +39,7 @@ include $base .'\..\layout\menu.php';
     }
 
     form {
-        max-width: 500px; /* Ajuste da largura máxima */
+        max-width: 500px;
         margin: 20px auto;
         padding: 20px;
         background-color: #fff;

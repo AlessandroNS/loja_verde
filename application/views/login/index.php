@@ -21,7 +21,7 @@
 
     h2 {
         color: #333;
-        text-align: center; /* Adicione esta linha para centralizar o texto */
+        text-align: center; 
     }
 
     form {
@@ -56,7 +56,7 @@
     }
 
     .alert {
-        text-align: center; /* Centraliza o texto */
+        text-align: center; 
         margin: 20px 0;
         padding: 15px;
         border-radius: 4px;

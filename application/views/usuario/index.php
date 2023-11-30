@@ -133,9 +133,6 @@ th {
             <?php } ?>
         </tbody>
     </table>
-
- 
-
 </body>
 </html>
 

@@ -26,11 +26,11 @@
    6. [x] Editar Produto
 10. [x] Funcionalidade Excluir Produto [0.5]
 11. [x] Cadastrar Usuário [0.5]
-12. [ ] Pesquisar Usuário [0.5]
+12. [x] Pesquisar Usuário [0.5]
 13. [x] Alterar Usuário [0.5]
 14. [x] Excluir Usuário [0.5]
 15. [x] Efetuar Login/Logout do Usuário [1.0]
 16. [x] Listar Produtos Na página Inicial [1.0]
 17. [x] Listar Produtos com Imagem [2.0]
-18. [ ] Adicionar o Modal de Confirmação de exclusão no projeto[1.0]
+18. [x] Adicionar o Modal de Confirmação de exclusão no projeto[1.0]
 19. [x] Refatorar o ProdutoDAO com PreparedStatement ou PDO [1.0]

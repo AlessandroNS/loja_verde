@@ -145,8 +145,6 @@ th {
         <h3>Não foi encontrado nenhum usuario!</h3>
     </table>
 
-
 <?php } ?>
 </body>
-
 </html>

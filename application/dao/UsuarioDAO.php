@@ -60,7 +60,7 @@ class UsuarioDAO {
         $conexao = new Conexao();
 		$conn = $conexao->getConexao();
 	
-		$termoBusca = $conn->real_escape_string($termoBusca); // Prevenir SQL injection
+		$termoBusca = $conn->real_escape_string($termoBusca); 
 	
 		$SQL = "SELECT * FROM usuarios WHERE cpf like "." '$termoBusca%'";
 		$result = $conn->query($SQL);

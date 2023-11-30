@@ -29,14 +29,14 @@ class UsuarioController extends Controller {
         $this->view('usuario/cadastrar', ["msg-cadastrado" => "Cadastro com sucesso!"]);
     }
     public function buscarUsuario() {
-        // Se o termo de busca estiver presente no GET
+      
         if (isset($_POST['cpf'])) {
             $termoBusca = $_POST['cpf'];
             $usuarioDAO = new UsuarioDAO();
             $usuariosEncontrados = $usuarioDAO->buscarPorCPF($termoBusca);
             $this->view('usuario/buscar', ['usuarios' => $usuariosEncontrados]);
         } else {
-            // Se nenhum termo de busca estiver presente, redirecione para a página principal
+        
             $this->index();
         }
     }
